@@ -1,0 +1,204 @@
+body {
+	background: url(../images/table_bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.cardtable{
+	margin:10px; 
+	float:left;
+	background: #85FF5C; 
+	border-radius: 7px;
+	box-shadow: 10px 10px 5px #409121;
+}
+.card-container{ 
+	width:71px; 
+	height:96px;
+	margin:10px;
+	float: left; 
+}
+.card > .back{
+	position:absolute;
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+	content: url(../images/cards/b1fv.png);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+.card > .face{
+	position:absolute;
+	-webkit-transform: perspective( 600px ) rotateY( 180deg );
+	transform: perspective( 600px ) rotateY( 180deg );
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+.card > .face.s_1{
+	content: url(../images/cards/s1.png);
+}
+.card > .face.s_2{
+	content: url(../images/cards/s2.png);
+}
+.card > .face.s_3{
+	content: url(../images/cards/s3.png);
+}
+.card > .face.s_4{
+	content: url(../images/cards/s4.png);
+}
+.card > .face.s_5{
+	content: url(../images/cards/s5.png);
+}
+.card > .face.s_6{
+	content: url(../images/cards/s6.png);
+}
+.card > .face.s_7{
+	content: url(../images/cards/s7.png);
+}
+.card > .face.s_8{
+	content: url(../images/cards/s8.png);
+}
+.card > .face.s_9{
+	content: url(../images/cards/s9.png);
+}
+.card > .face.s_10{
+	content: url(../images/cards/s10.png);
+}
+.card > .face.s_11{
+	content: url(../images/cards/s11.png);
+}
+.card > .face.s_12{
+	content: url(../images/cards/s12.png);
+}
+.card > .face.s_13{
+	content: url(../images/cards/s13.png);
+}
+.card > .face.c_1{
+	content: url(../images/cards/c1.png);
+}
+.card > .face.c_2{
+	content: url(../images/cards/c2.png);
+}
+.card > .face.c_3{
+	content: url(../images/cards/c3.png);
+}
+.card > .face.c_4{
+	content: url(../images/cards/c4.png);
+}
+.card > .face.c_5{
+	content: url(../images/cards/c5.png);
+}
+.card > .face.c_6{
+	content: url(../images/cards/c6.png);
+}
+.card > .face.c_7{
+	content: url(../images/cards/c7.png);
+}
+.card > .face.c_8{
+	content: url(../images/cards/c8.png);
+}
+.card > .face.c_9{
+	content: url(../images/cards/c9.png);
+}
+.card > .face.c_10{
+	content: url(../images/cards/c10.png);
+}
+.card > .face.c_11{
+	content: url(../images/cards/c11.png);
+}
+.card > .face.c_12{
+	content: url(../images/cards/c12.png);
+}
+.card > .face.c_13{
+	content: url(../images/cards/c13.png);
+}
+.card > .face.h_1{
+	content: url(../images/cards/h1.png);
+}
+.card > .face.h_2{
+	content: url(../images/cards/h2.png);
+}
+.card > .face.h_3{
+	content: url(../images/cards/h3.png);
+}
+.card > .face.h_4{
+	content: url(../images/cards/h4.png);
+}
+.card > .face.h_5{
+	content: url(../images/cards/h5.png);
+}
+.card > .face.h_6{
+	content: url(../images/cards/h6.png);
+}
+.card > .face.h_7{
+	content: url(../images/cards/h7.png);
+}
+.card > .face.h_8{
+	content: url(../images/cards/h8.png);
+}
+.card > .face.h_9{
+	content: url(../images/cards/h9.png);
+}
+.card > .face.h_10{
+	content: url(../images/cards/h10.png);
+}
+.card > .face.h_11{
+	content: url(../images/cards/h11.png);
+}
+.card > .face.h_12{
+	content: url(../images/cards/h12.png);
+}
+.card > .face.h_13{
+	content: url(../images/cards/h13.png);
+}
+.card > .face.d_1{
+	content: url(../images/cards/d1.png);
+}
+.card > .face.d_2{
+	content: url(../images/cards/d2.png);
+}
+.card > .face.d_3{
+	content: url(../images/cards/d3.png);
+}
+.card > .face.d_4{
+	content: url(../images/cards/d4.png);
+}
+.card > .face.d_5{
+	content: url(../images/cards/d5.png);
+}
+.card > .face.d_6{
+	content: url(../images/cards/d6.png);
+}
+.card > .face.d_7{
+	content: url(../images/cards/d7.png);
+}
+.card > .face.d_8{
+	content: url(../images/cards/d8.png);
+}
+.card > .face.d_9{
+	content: url(../images/cards/d9.png);
+}
+.card > .face.d_10{
+	content: url(../images/cards/d10.png);
+}
+.card > .face.d_11{
+	content: url(../images/cards/d11.png);
+}
+.card > .face.d_12{
+	content: url(../images/cards/d12.png);
+}
+.card > .face.d_13{
+	content: url(../images/cards/d13.png);
+}
+.back.flipped{
+	-webkit-transform: perspective( 600px ) rotateY( -180deg );
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+.face.flipped{
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+}
